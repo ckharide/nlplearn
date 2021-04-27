@@ -231,3 +231,5 @@ X = np.random.rand(3, 10)
 X_reduced = compute_pca(X, n_components=2)
 print("Your original matrix was " + str(X.shape) + " and it became:")
 print(X_reduced)
+
+print(np.asscalar(np.array([1 , 2 , 1])))
